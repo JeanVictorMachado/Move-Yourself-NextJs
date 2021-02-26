@@ -17,4 +17,13 @@ export const SectionLeft = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
   align-content: center;
+
+  @media(max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+
+    > section {
+      margin-bottom: 2rem;
+    }
+  }
 `

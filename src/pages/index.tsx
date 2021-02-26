@@ -43,9 +43,10 @@ export default function Home({
               <CompletedChallenges />
               <Countdown />
             </div>
-            <div>
+
+            <section>
               <ChallengeBox />
-            </div>
+            </section>
           </S.SectionLeft>
         </CountdownProvider>
 

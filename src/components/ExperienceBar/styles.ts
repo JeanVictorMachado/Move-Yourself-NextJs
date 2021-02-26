@@ -18,6 +18,10 @@ export const Header = styled.header`
       position: relative;
     `}
   }
+
+  @media(max-width: 800px) {
+    margin-bottom: 2.5rem;
+  }
 `
 
 type GreenBarProps = {
